@@ -57,3 +57,9 @@ Depois basta digitar no terminar: `yarn start`
 "noEmitOnError": true,
 ```
 Habilitando esta opção se o seu código TS tiver algum bug ele não compila ***nada***.
+
+```json
+"sourceMap": true,
+```
+
+Habilita o map do código typescript, utilizado para debug tanto dentro do navegador como no Visual Studio Code.
