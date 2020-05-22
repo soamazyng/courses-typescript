@@ -50,3 +50,10 @@ Dentro do package.json criar um comando start com o seguinte comando:
 ```
 
 Depois basta digitar no terminar: `yarn start`
+
+## Opções interessantes para configurar no arquivo tsconfig.json
+
+```json
+"noEmitOnError": true,
+```
+Habilitando esta opção se o seu código TS tiver algum bug ele não compila ***nada***.
