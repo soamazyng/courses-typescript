@@ -63,3 +63,6 @@ Habilitando esta opção se o seu código TS tiver algum bug ele não compila **
 ```
 
 Habilita o map do código typescript, utilizado para debug tanto dentro do navegador como no Visual Studio Code.
+
+## Constructor
+Quando você está herdando uma class que já tem um construtor, dentro do construtor herdado é preciso chamar uma função chamada: ***super();*** desta forma tudo que está no constructor da classe pai vai ser chamado na classe filho.
